@@ -1,10 +1,12 @@
-li a.btn-primary {
+/* li a.btn-primary {
     background-color: #e4e4e4;
     padding: 0.5rem 0.5rem;
     color: rgb(85,85,85);
     outline: none;
-    /* border-color: ; */
-}
+   
+} */
+
+/* css navbar with search  */
 
 a i.bxs-user-circle {
     color: rgb(85,85,85);
@@ -25,7 +27,7 @@ nav.sub-menu {
     background-color: rgb(59,114,67) !important;
 }
 
-.btn .bx {
+.btn-navbar-search .bx {
     vertical-align: inherit;
     margin-top: -3px;
     font-size: 1.15rem;
@@ -39,7 +41,7 @@ nav.sub-menu {
     border-radius: 0.3rem;
 }
 
-.btn {
+.btn-navbar-search{
     font-size: 1rem;
     padding: 0.5rem 0.75rem;
     font-size: 1rem;
@@ -56,11 +58,14 @@ nav.sub-menu {
     border-bottom-right-radius: 0;
 }
 
-.form-inline .btn {
+.form-inline .btn-navbar-search{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
+.navbar-nav .btn .bxs-user-circle {
+    font-size: 1.8rem;
+}
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
@@ -286,6 +291,12 @@ ul.social-icons li {
     right: 0;
 }
 
+
+/* end navbar with search  */
+
+
+/* css carousel  */
+
 .carousel-item {
     height: 300px;
 }
@@ -353,6 +364,21 @@ ul.social-icons li {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif
 }
+
+/* end css carousel */
+
+/* home category  */
+.p-category {
+    font-size: 1.75rem;
+    font-weight: 900;
+    border-bottom: solid 1px;
+    margin-top: 1.75rem;
+    box-shadow: 0 4px 5px -5px black;
+}
+
+/* end home category  */
+
+/* css list product and category  */
 
 .wrapper__products {
     padding: 30px;
@@ -744,3 +770,6 @@ h6 {
         clear: both
     }
 }
+
+/* end css list product and category  */
+
